@@ -1,0 +1,17 @@
+name: ClanPlugin
+version: '${project.version}'
+main: de.clanplugin.ClanPlugin
+api-version: '1.21'
+description: Clans mit Menues, Ender Chest, Clan Home, Rechten und Tab/Nametag-Prefix
+softdepend: [LuckPerms]
+
+commands:
+  clan:
+    description: Clan-Menue und Clan-Befehle
+    usage: /clan [create|invite|accept|delete|leave]
+    permission: clan.use
+
+permissions:
+  clan.use:
+    description: Erlaubt die Nutzung von /clan
+    default: true

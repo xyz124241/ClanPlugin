@@ -1,0 +1,21 @@
+# Maximale Mitglieder pro Clan (maximal 45, weil das Mitglieder-Menue eine Seite hat)
+max-members: 30
+
+# Reihen der Clan Ender Chest (1 bis 6)
+enderchest-rows: 3
+
+# Wie lange eine Clan-Einladung gueltig ist (Sekunden)
+invite-expire-seconds: 120
+
+tab:
+  # Format des Clan-Prefix, der VOR dem LuckPerms-Rang steht (MiniMessage).
+  # <clan> wird durch den farbigen Clan-Namen ersetzt.
+  clan-format: "<dark_gray>[</dark_gray><clan><dark_gray>]</dark_gray> "
+
+  # LuckPerms-Rang (Prefix) hinter dem Clan in Tab und ueber dem Kopf anzeigen
+  show-luckperms-prefix: true
+
+  # Wie die LuckPerms-Prefixe geschrieben sind:
+  # LEGACY      = &c, &6, &#ff0000 ...
+  # MINIMESSAGE = <red>, <gradient:...> ...
+  luckperms-prefix-format: LEGACY
